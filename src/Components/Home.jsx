@@ -13,24 +13,41 @@ function Prod(props) {
         <h3>{props.title}</h3>
         <p>${props.price.toFixed(2)}</p>
         <button
-          className="Add-to-Cart"
-          onClick={() => {
-            props.setCart([
-  ...props.cart,
-  {
-    id: props.id,
-    title: props.title,
-    image: props.image,
-    price: props.price
-  }
-]);
-            console.log(props.cart);
-            setAdded(true);
+        onClick={() => {
+  const existing = props.cart.find(
+    (product) => product.id === props.id
+  );
 
-            setTimeout(() => {
-              setAdded(false);
-            }, 1000);
-          }}
+  if (existing) {
+    props.setCart(
+      props.cart.map((product) =>
+        product.id === props.id
+          ? {
+              ...product,
+              quantity: product.quantity + 1,
+            }
+          : product
+      )
+    );
+  } else {
+    props.setCart([
+      ...props.cart,
+      {
+        id: props.id,
+        title: props.title,
+        image: props.image,
+        price: props.price,
+        quantity: 1,
+      },
+    ]);
+  }
+
+  setAdded(true);
+
+  setTimeout(() => {
+    setAdded(false);
+  }, 1000);
+}}
         >
           Add to Cart
         </button>
