@@ -1,16 +1,161 @@
-# React + Vite
+# 🛒 React E-Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce web application built with React, featuring product browsing, cart management, quantity controls, routing, and responsive UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+### 🏪 Product Catalog
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fetches products from the Fake Store API
+* Responsive product grid
+* Product images, titles, and prices
+* Smooth hover interactions
 
-## Expanding the ESLint configuration
+### 🛒 Shopping Cart
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Add products to cart
+* Increase and decrease product quantity
+* Remove products from cart
+* Real-time total price calculation
+* Empty cart state handling
+
+### 🚦 Routing
+
+* Home Page (`/`)
+* Cart Page (`/cart`)
+* Client-side routing using React Router
+
+### 📱 Responsive Design
+
+* Mobile-friendly layout
+* Responsive product grid
+* Modern card-based UI
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* React Router DOM
+* CSS3
+* JavaScript (ES6+)
+* Fake Store API
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── Components/
+│   ├── Home.jsx
+│   ├── Cart.jsx
+│   └── Navbar.jsx
+│
+├── Css/
+│   ├── Home.css
+│   ├── cart.css
+│   └── nav.css
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will run locally on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🧠 Concepts Practiced
+
+This project was built while learning and applying:
+
+* React Components
+* Props
+* useState
+* useEffect
+* Conditional Rendering
+* List Rendering with map()
+* State Lifting
+* React Router
+* Event Handling
+* Responsive CSS Grid Layouts
+
+---
+
+## 🎯 Current Functionality
+
+✅ Browse Products
+
+✅ Add to Cart
+
+✅ Update Quantity
+
+✅ Remove Products
+
+✅ Dynamic Cart Total
+
+✅ Responsive Layout
+
+✅ Routing Between Pages
+
+---
+
+## 🔮 Future Improvements
+
+* Product Search
+* Category Filters
+* Product Details Page
+* Local Storage Persistence
+* Checkout Flow
+* User Authentication
+* Order History
+* Wishlist Functionality
+
+---
+
+## 📸 Preview
+
+Add screenshots here after deployment.
+
+```md
+![Home Page](screenshot-home.png)
+
+![Cart Page](screenshot-cart.png)
+```
+
+---
+
+## 👨‍💻 Author
+
+**Arham Shaikh**
+
+Built as part of my React learning journey, focusing on understanding state management, routing, component architecture, and real-world application development.
