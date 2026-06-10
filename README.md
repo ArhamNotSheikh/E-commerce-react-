@@ -142,21 +142,7 @@ This project was built while learning and applying:
 
 ---
 
-## 📸 Preview
 
-
-
-```md
-![Home Page]
-<img width="1901" height="887" alt="image" src="https://github.com/user-attachments/assets/097107d1-7124-4bc6-9893-2063077c0809" />
-
-
-![Cart Page]
-<img width="1898" height="876" alt="image" src="https://github.com/user-attachments/assets/5a89f0dd-7570-4cf1-b5cf-19cea239f50a" />
-
-```
-
----
 
 ## 👨‍💻 Author
 
