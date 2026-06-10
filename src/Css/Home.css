@@ -122,3 +122,61 @@
 
   font-weight: 600;
 }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  max-width: 500px;
+
+  background-color: white;
+
+  border: 1px solid #ddd;
+  border-radius: 999px;
+
+  overflow: hidden;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.search-input {
+  flex: 1;
+
+  padding: 12px 18px;
+
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-button {
+  padding: 12px 24px;
+
+  border: none;
+
+  background-color: #2874f0;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #1f5fc7;
+}
