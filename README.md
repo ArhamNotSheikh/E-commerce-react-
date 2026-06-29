@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-> Frontend deployed on Vercel · Backend deployed on Render *(coming soon)*
+> https://arhams-e-commerce-react.vercel.app/
 
 ---
 
