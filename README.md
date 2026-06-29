@@ -6,7 +6,8 @@
 
 ## 🚀 Live Demo
 
-> https://arhams-e-commerce-react.vercel.app/
+🌐 **Frontend:** https://arhams-e-commerce-react.vercel.app
+⚙️ **Backend API:** https://cartflow-backend-o172.onrender.com/api/cart
 
 ---
 
