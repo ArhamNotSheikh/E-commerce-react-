@@ -5,7 +5,7 @@ import Cart from "./Components/cart";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5002/api/cart"; // ✅ fixed double slash too
+const BASE_URL = "https://cartflow-backend-o172.onrender.com/api/cart"; // ✅ fixed double slash too
 
 function App() {
     const [cart, setCart] = useState([]);
